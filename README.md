@@ -23,23 +23,23 @@ It runs locally on budget laptops using a quantized LLaMA model via `llama-cpp`,
    cd waec-tutor
 
 2. Create a virtual environment:
-    bash
+    ```bash
     python -m venv venv
     venv\Scripts\activate
 
 3. Install dependencies:
 
-    bash
+    ```bash
     pip install llama-cpp-python
     Place your quantized model file (.gguf) inside the models/ folder.
 
 🚀 Usage
 Run Test Script
-    bash
+    ```bash
     python test_llama.py
 
 Launch GUI
-    bash
+    ```bash
     python waec_tutor_gui.py
 
 Type your question in the entry box.
