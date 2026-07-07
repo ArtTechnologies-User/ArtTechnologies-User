@@ -42,6 +42,8 @@ Launch GUI
     ```bash
     python waec_tutor_gui.py
 
+
+
 Type your question in the entry box.
 Click Ask to get an answer.
 Use Quiz Mode to practice WAEC‑style questions.
