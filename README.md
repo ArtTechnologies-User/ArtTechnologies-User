@@ -1,4 +1,4 @@
-# WAEC Tutor: On‑Device AI for Exam Success
+# Offline AI Tutor for WAEC: Smart Learning Without Internet  
 
 ## 📘 Overview
 WAEC Tutor is an **offline AI assistant** built for senior secondary school students preparing for WAEC exams.  
@@ -22,12 +22,31 @@ It runs locally on budget laptops using a quantized LLaMA model via `llama-cpp`,
    git clone https://github.com/your-username/waec-tutor.git
    cd waec-tutor
 
-2. Create a virtual environment:
+2.Install dependencies
+
+   bash
+   pip install -r requirements.txt
+
+   ```bash
+    pip install llama-cpp-python
+    Place your quantized model file (.gguf) inside the models/ folder.
+
+3.Download the model  
+   Place your quantized GGUF model (e.g., llama-2-7b-chat-hf-q4_k_m.gguf) inside the models/ folder.
+
+
+4.Install dependencies:
+
+    ```bash
+    pip install llama-cpp-python
+    Place your quantized model file (.gguf) inside the models/ folder.
+    
+5. Create a virtual environment:
     ```bash
     python -m venv venv
     venv\Scripts\activate
 
-3. Install dependencies:
+8. Install dependencies:
 
     ```bash
     pip install llama-cpp-python
