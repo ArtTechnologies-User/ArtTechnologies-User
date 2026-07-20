@@ -68,10 +68,10 @@ Launch GUI
    ```
 
 
-Type your question in the entry box.
-Click Ask to get an answer.
-Use Quiz Mode to practice WAEC‑style questions.
-Track your score as you answer.   
+1. Type your question in the entry box.
+2. Click Ask to get an answer.
+3. Use Quiz Mode to practice WAEC‑style questions.
+4. Track your score as you answer.   
 
 Author
 Taiwo Anthony Alabi  
