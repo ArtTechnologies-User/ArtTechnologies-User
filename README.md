@@ -21,15 +21,17 @@ It runs locally on budget laptops using a quantized LLaMA model via `llama-cpp`,
    ```bash
    git clone https://github.com/your-username/waec-tutor.git
    cd waec-tutor
-
+  ```
 2.Install dependencies
 
-   bash
+  ```bash
    pip install -r requirements.txt
+  ```
 
    ```bash
     pip install llama-cpp-python
     Place your quantized model file (.gguf) inside the models/ folder.
+   ```
 
 3.Download the model  
    Place your quantized GGUF model (e.g., llama-2-7b-chat-hf-q4_k_m.gguf) inside the models/ folder.
@@ -40,12 +42,14 @@ It runs locally on budget laptops using a quantized LLaMA model via `llama-cpp`,
     ```bash
     pip install llama-cpp-python
     Place your quantized model file (.gguf) inside the models/ folder.
+    ```
     
 5. Create a virtual environment:
     ```bash
     python -m venv venv
     venv\Scripts\activate
-
+   ```
+    
 8. Install dependencies:
 
     ```bash
@@ -56,11 +60,12 @@ It runs locally on budget laptops using a quantized LLaMA model via `llama-cpp`,
 Run Test Script
     ```bash
     python test_llama.py
+    ```
 
 Launch GUI
     ```bash
     python waec_tutor_gui.py
-
+    ```
 
 
 Type your question in the entry box.
