@@ -58,14 +58,14 @@ It runs locally on budget laptops using a quantized LLaMA model via `llama-cpp`,
 
 🚀 Usage
 Run Test Script
-    ```bash
+   ```bash
     python test_llama.py
     ```
 
 Launch GUI
-    ```bash
+   ```bash
     python waec_tutor_gui.py
-    ```
+   ```
 
 
 Type your question in the entry box.
